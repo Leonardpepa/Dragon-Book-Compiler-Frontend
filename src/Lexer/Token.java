@@ -1,6 +1,6 @@
 package Lexer;
 
-public abstract class Token {
+public  class Token {
 
     public final int tag;
 
