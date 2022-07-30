@@ -1,5 +1,7 @@
 package Lexer;
 
+import Symbols.Type;
+
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.logging.XMLFormatter;
@@ -23,10 +25,10 @@ public class Lexer {
         reserve(new Word("break", Tag.BREAK));
         reserve(Word.True);
         reserve(Word.False);
-//        reserve(Type.Int);
-//        reserve(Type.Char);
-//        reserve(Type.Bool);
-//        reserve(Type.Float);
+        reserve(Type.Int);
+        reserve(Type.Char);
+        reserve(Type.Bool);
+        reserve(Type.Float);
     }
         public void readch() throws IOException {
             peek = (char) System.in.read();
