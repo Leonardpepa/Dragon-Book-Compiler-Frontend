@@ -1,13 +1,14 @@
 package Inter;
 
 import Lexer.Token;
+import Symbols.Type;
 
-public class Expr {
+public class Expr extends Node{
 
     public Token op;
-    public Token type;
+    public Type type;
 
-    public Expr(Token op, Token type) {
+    public Expr(Token op, Type type) {
         this.op = op;
         this.type = type;
     }
