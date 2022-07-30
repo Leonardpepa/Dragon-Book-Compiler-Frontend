@@ -1,5 +1,6 @@
 package Symbols;
 
+import Inter.Id;
 import Lexer.Token;
 
 import java.util.Hashtable;
@@ -13,14 +14,17 @@ public class Env {
         this.prev = prev;
     }
 
-//    public void put(Token token, Id i){
-//        table.put(token, i);
-//    }
-//
-//    public Id get(Token token){
-//        for (Env e = this; e != null; e = prev){
-//            Id found = (Id) e.table.get(token);
-//            return found;
-//        }
-//    }
+    public void put(Token token, Id i){
+        table.put(token, i);
+    }
+
+    public Id get(Token token){
+        for (Env e = this; e != null; e = prev){
+            Id found = (Id) e.table.get(token);
+            if (found != null){
+                return found;
+            }
+        }
+        return null;
+    }
 }
