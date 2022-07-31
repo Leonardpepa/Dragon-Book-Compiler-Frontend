@@ -167,7 +167,7 @@ public class Parser {
         match(Tag.ID);
         Id id = top.get(tok);
         if (id == null){
-            error("Variable: " + id.toString() + " Undeclared");
+            error("Variable Undeclared");
         }
         if (look.tag == '='){
             move();
