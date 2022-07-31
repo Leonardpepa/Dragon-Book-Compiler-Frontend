@@ -23,7 +23,7 @@ public class Do extends Stmt{
 
 
     @Override
-    public void gen(int a, int b) {
+    public void gen(int b, int a) {
         after = a;
         int label = newLabel();
         stmt.gen(b, label);

@@ -17,7 +17,7 @@ public class Else extends Stmt{
     }
 
     @Override
-    public void gen(int a, int b) {
+    public void gen(int b, int a) {
         int label1 = newLabel();
         int label2 = newLabel();
 
