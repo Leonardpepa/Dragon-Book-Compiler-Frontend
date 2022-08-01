@@ -6,7 +6,7 @@
     The code belongs to the owners of the book, i just rewrite it to test it and understand it better.
 
 ## Frontend Compiler Components
-    * Lexer (Tokenizer)
+    * Lexer (Tokenizer), (if you dont provide an argument when creating the new instance the input is given from stdin)
     * Parser (Creates the ast tree with recursice descent)
     * Inter (Contains classes that generate fake intermediate code)
     * Symbols (Classes for symbol table and type checking)
