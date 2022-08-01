@@ -11,7 +11,7 @@ import Symbols.*;
 public class Parser {
 
     private Lexer lex;    // lexical analyzer for this parser
-    private Token look;   // lookahead tagen
+    private Token look;   // lookahead
     Env top = null;       // current or top symbol table
     int used = 0;         // storage used for declarations
 
