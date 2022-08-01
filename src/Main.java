@@ -10,7 +10,7 @@ public class Main {
         Lexer lex = null;
         Parser parser = null;
         try {
-            lex = new Lexer("C:/Users/USER/Desktop/programming/Java/Dragon Book Compiler/resources/tests/test");
+            lex = new Lexer("./resources/tests/test");
             parser = new Parser(lex);
             parser.program();
             System.out.write('\n');
