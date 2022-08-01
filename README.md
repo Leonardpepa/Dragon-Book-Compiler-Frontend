@@ -114,3 +114,6 @@ L17:
 	goto L14
 L2:
 ```
+
+## TODO
+create documentation of the implementation so i can myself understand it better
