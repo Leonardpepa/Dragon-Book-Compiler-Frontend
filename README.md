@@ -115,5 +115,13 @@ L17:
 L2:
 ```
 
+## Run Locally
+* clone the repository
+* open with intellij
+* run main.java
+
+## Tests
+the tests are in the resources/tests folder.
+
 ## TODO
 create documentation of the implementation so i can myself understand it better
