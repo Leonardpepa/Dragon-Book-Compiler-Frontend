@@ -1,0 +1,34 @@
+{
+    int i;
+    float[200] v;
+    int[5] array;
+    int j;
+    v[0] = 15;
+    i=0;
+
+    if(i > 0){
+        i=1;
+    }
+
+    j = 0;
+
+    while(j <= 5){
+        array[j] = j;
+        j = j + 1;
+    }
+
+    while(i <= 100){
+        v[i] = 0;
+        i = i + 1;
+    }
+    i = 0;
+    while(true){
+        i = i + 5;
+        if(i > 100){
+            break;
+        }
+    }
+
+
+
+ }
