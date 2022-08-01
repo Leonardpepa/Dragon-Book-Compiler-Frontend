@@ -116,7 +116,7 @@ L2:
 ```
 
 ## Run Locally
-* clone the repository
+* git clone https://github.com/Leonardpepa/Dragon-Book-Compiler-Frontend.git
 * open with intellij
 * run main.java
 
