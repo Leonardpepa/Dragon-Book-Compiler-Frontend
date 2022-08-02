@@ -121,7 +121,7 @@ L2:
 * run main.java
 
 ## Tests
-the tests are in the resources/tests folder.
+the tests are in the /src/main/resources/ folder.
 
 ## TODO
 create documentation of the implementation so i can myself understand it better
