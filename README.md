@@ -6,10 +6,10 @@
     The code belongs to the owners of the book, i just rewrite it to test it and understand it better.
 
 ## Frontend Compiler Components
-    * Lexer (Tokenizer), (if you dont provide a filepath as argument when creating the new instance the input is given from stdin)
-    * Parser (Creates the ast tree with recursice descent)
-    * Inter (Contains classes that generate fake intermediate code)
-    * Symbols (Classes for symbol table and type checking)
+    * main.Lexer (Tokenizer), (if you dont provide a filepath as argument when creating the new instance the input is given from stdin)
+    * main.Parser (Creates the ast tree with recursice descent)
+    * main.Inter (Contains classes that generate fake intermediate code)
+    * main.Symbols (Classes for symbol table and type checking)
 
 ## Grammar 
 * This is the context free grammar of this toy lenguage (this is not LL ready but the modifications are made before the parser is written)
