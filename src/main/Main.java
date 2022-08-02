@@ -3,7 +3,6 @@ package main;
 import main.Lexer.Lexer;
 import main.Parser.Parser;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
